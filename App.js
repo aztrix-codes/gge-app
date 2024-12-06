@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { StatusBar, View, StyleSheet, Modal, TextInput, Button, Text } from 'react-native';
+import { StatusBar, View, StyleSheet, Modal, TextInput, Button } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { Accelerometer } from 'expo-sensors';
 
