@@ -13,22 +13,50 @@
       "backgroundColor": "#000"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arman07.GGE",
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "UIRequiresFullScreen": true,
+        "UIStatusBarHidden": true,
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000"
       },
-      "package": "com.arman07.GGE"
+      "package": "com.arman07.GGE",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "softwareKeyboardLayoutMode": "pan",
+      "allowBackup": false,
+      "blocksScreenshots": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      "expo-screen-orientation"
+    ],
     "extra": {
       "eas": {
         "projectId": "932dd153-cdd9-4efb-85fa-6936181640ae"
       }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/932dd153-cdd9-4efb-85fa-6936181640ae"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }

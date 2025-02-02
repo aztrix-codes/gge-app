@@ -2990,6 +2990,11 @@ expo-modules-core@2.1.1:
   dependencies:
     invariant "^2.2.4"
 
+expo-screen-orientation@^8.0.4:
+  version "8.0.4"
+  resolved "https://registry.npmjs.org/expo-screen-orientation/-/expo-screen-orientation-8.0.4.tgz"
+  integrity sha512-kJrIZ/44+Gs5D5nyP6SXqTUbJEOsRgzk+nUcKeVZ0Vmx0szGrvSvhzdus7853xT/sqyAARsqBMlx626jAMu/Jg==
+
 expo-sensors@~14.0.1:
   version "14.0.1"
   resolved "https://registry.npmjs.org/expo-sensors/-/expo-sensors-14.0.1.tgz"
